@@ -1,0 +1,99 @@
+.header {
+  
+  height: 3.0rem;
+  width: 100%;
+  margin-bottom: none;
+}
+.nav {
+  font-size: 20px;
+  display:inline;
+  font-family: Arial;
+  justify-content:space-around;
+  text-align: middle;
+  background-color: #ECEDDB ;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3E3D38;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #67463c;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: gray;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+body{
+  background-color:#F8F9F1;
+}
+.body {
+  width: 90%;
+  height:;
+  font-family: arial;
+  text-align: center;
+  border-radius: 5px;
+
+}
+ul {
+  position: middle;
+  top: 0;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#eceddb ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:#3E3D38 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*i added the formation below so the home page looks more uniform*/
+.heading{
+ font-size: 50px;
+  color: #3E3D38;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ text-align: left;
+}
+.introduction{
+  font-size: 36px;
+  color: #3E3D38;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
